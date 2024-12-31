@@ -1,10 +1,14 @@
-print("Welcome to Treasure island.\nYour mission is to find the treasure.")
-direction=input('Do you want to go to "Left" or "Right"?')
-if(direction == 'left'):
-    way=input('Do you want to "swim" or "wait"?').lower()
-    if (way == 'wait'):
-        door=input('Which door do you prefer: "red", "yellow" or "blue"').lower()
-        if(door=='yellow'):
-            print("You win!")
-            exit()
-print("Game Over")
+scissors='''
+           .-.________
+      ----/ \ )_______)
+         (  (/()___)
+              ()__)
+      ----\___()_)
+          '''
+
+
+choice= input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
+if (choice==0):
+    
+elif(choice==2):
+    print(scissors)
